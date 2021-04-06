@@ -3,7 +3,7 @@ Stream data into Elasticsearch via PRAW.
 
 # Summary
 
-This is a small and ugly Python script that will grab the comment, submission, and moderator streams via PRAW. It then dumps them into an ELasticsearch database. Why? Because Reddit's search function isn't the best, especially when it comes to moderation duties. This makes searching and statistics much easier. 
+This is a small and ugly Python script that will grab the comment, submission, and moderator streams via PRAW. It then dumps them into an Elasticsearch database. Why? Because Reddit's search function isn't the best, especially when it comes to moderation duties. This makes searching and statistics much easier. 
 
 # Requirements
 - A Reddit username, password, client ID, and client secret. The account should have moderator privileges on the subreddit you're stream since it'll need access to the moderator stream.
